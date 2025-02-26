@@ -1,4 +1,4 @@
-package com.rocqjones.reminderapp.ui.vm
+package com.glyadgzl.reminder.ui.vm
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
@@ -6,8 +6,10 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import androidx.work.workDataOf
-import com.rocqjones.reminderapp.data.DataSource
-import com.rocqjones.reminderapp.work.ReminderWorker
+import com.glyadgzl.reminder.data.DataSource
+import com.glyadgzl.reminder.work.ReminderWorker
+
+
 import java.util.concurrent.TimeUnit
 
 class ReminderViewModel(application: Application): ViewModel() {

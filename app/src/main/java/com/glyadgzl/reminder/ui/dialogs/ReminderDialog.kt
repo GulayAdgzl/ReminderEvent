@@ -1,4 +1,5 @@
-package com.rocqjones.reminderapp.ui.dialogs
+package com.glyadgzl.reminder.ui.dialogs
+
 
 import android.app.Application
 import androidx.compose.foundation.clickable
@@ -21,9 +22,11 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
 import androidx.compose.ui.window.DialogProperties
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.rocqjones.reminderapp.R
-import com.rocqjones.reminderapp.ui.vm.ReminderViewModel
-import com.rocqjones.reminderapp.ui.vm.ReminderViewModelFactory
+import com.glyadgzl.reminder.R
+import com.glyadgzl.reminder.ui.vm.ReminderViewModel
+import com.glyadgzl.reminder.ui.vm.ReminderViewModelFactory
+
+
 import java.util.concurrent.TimeUnit
 
 

@@ -1,4 +1,4 @@
-package com.rocqjones.reminderapp.work
+package com.glyadgzl.reminder.work
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
@@ -8,9 +8,10 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import androidx.work.Worker
 import androidx.work.WorkerParameters
-import com.rocqjones.reminderapp.MainActivity
-import com.rocqjones.reminderapp.R
-import com.rocqjones.reminderapp.base.BaseApplication
+import com.glyadgzl.reminder.MainActivity
+import com.glyadgzl.reminder.R
+import com.glyadgzl.reminder.base.BaseApplication
+
 
 class ReminderWorker(
     context: Context,
@@ -43,7 +44,8 @@ class ReminderWorker(
             .setAutoCancel(true)
 
         with(NotificationManagerCompat.from(applicationContext)) {
-            notify(notificationId, builder.build())
+           // notify(notificationId, builder.build())
+            notify(notificationId,builder.build())
         }
 
         return Result.success()
