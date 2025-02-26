@@ -1,8 +1,9 @@
 package com.glyadgzl.reminder.models
 
-data class ReminderData(
-    val taskTitle: String,
-    val date: Calendar,
-    val note: String,
-    val frequency: ReminderFrequency
+data class ComposeRandomItem(
+    val name: String,
+    val schedule: String,
+    val type: String,
+    val imageResId: Int,
+    val description: String
 )
